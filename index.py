@@ -29,8 +29,8 @@ def lambda_handler(event, context):
         "statusCode": 200,
         "body": data,
     "headers": {
-            "Access-Control-Allow-Origin": "https://www.ravens-resume-crc.com",
-            "Access-Control-Allow-Headers": "Content-Type",
+            "Access-Control-Allow-Origin": "https://www.ravenspencer.com",
+            "Access-Control-Allow-Headers": "Content-Type, X-Amz-Date,Authorization, X-Api-Key, X-Amz-Security-Token",
             "Access-Control-Allow-Methods": "OPTIONS,POST,GET",
             "Content-Type": "application/json"
         }

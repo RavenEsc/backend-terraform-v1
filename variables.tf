@@ -2,7 +2,7 @@ variable "reg" {
   default = "us-west-2"
 }
 variable "profilename" {
-  default = "Sand"
+  default = "admin"
 }
 
 variable "accountnumber" {
