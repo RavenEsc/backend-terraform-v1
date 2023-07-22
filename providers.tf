@@ -5,10 +5,11 @@ terraform {
       version = "~> 4.0"
     }
   }
-}
+  cloud {
+    organization = "raven-for-aws"
 
-# Configure the AWS Provider
-provider "aws" {
-  region = var.reg
-  profile = var.profilename
+    workspaces {
+      name = "raven-spen-blog-site"
+    }
+  }
 }
