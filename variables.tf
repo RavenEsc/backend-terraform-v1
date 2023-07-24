@@ -1,9 +1,9 @@
 variable "reg" {
-  default = "us-west-2"
+  default = "us-east-1"
 }
-variable "profilename" {
-  default = "admin"
-}
+# variable "profilename" {
+#   default = "admin"
+# }
 
 variable "accountnumber" {
   default = "464004139021"
