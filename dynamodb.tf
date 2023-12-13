@@ -11,7 +11,7 @@ resource "aws_dynamodb_table" "counter-db" {
   }
 
   tags = {
-    Name        = "dynamodb-table-2"
+    Name        = "counter-data"
     Environment = "production"
   }
 }
