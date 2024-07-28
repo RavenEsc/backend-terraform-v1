@@ -3,7 +3,7 @@ variable "reg" {
 }
 
 variable "accountnumber" {
-  default = "464004139021"
+  default = "************"
 }   
 
 variable "tablename" {
